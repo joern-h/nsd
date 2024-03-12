@@ -14,7 +14,10 @@ dependencies:
     sdk: flutter
 
   # production
-  nsd_android: ^2.0.0
+  nsd_android:
+    git:
+      url: https://github.com/joern-h/nsd/
+      path: nsd_android
   nsd_ios: ^2.0.0
   nsd_macos: ^2.0.0
   nsd_platform_interface: ^2.0.0
